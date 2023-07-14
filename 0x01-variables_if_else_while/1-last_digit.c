@@ -24,10 +24,10 @@ int main(void)
 	else if (firstDigit == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, firstDigit);
-	}
-	else 
+	} else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, firstDigit);
+	printf("Last digit of %d is %d", n, firstDigit);
+	printf("and is greater than 5\n");
 	}
 	return (0);
 }
