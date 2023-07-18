@@ -3,7 +3,6 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function islower goes there */
 /**
  * _islower - Entry point
  *
