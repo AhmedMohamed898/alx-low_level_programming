@@ -2,7 +2,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
  * Return: Always 0 (Success)
  */
