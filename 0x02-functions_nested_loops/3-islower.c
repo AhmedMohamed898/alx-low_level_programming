@@ -5,7 +5,7 @@
 
 /**
  * _islower - Entry point
- *
+ * @c: describe the parameter
  * Return: Always 0 (Success)
  */
 int _islower(int c)
