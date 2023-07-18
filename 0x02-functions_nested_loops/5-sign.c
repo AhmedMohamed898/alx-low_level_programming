@@ -25,7 +25,7 @@ else if (n == 0)
 else 
 {
 putchar('-');
-putchar('1')'
+putchar('1');
 return (-1);
 }
 
