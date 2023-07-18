@@ -9,9 +9,9 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void _putchar (char c)
 {
-printf("_putchar\n");
-
+putchar(c);
+putchar('\n');
 return (0);
 }
