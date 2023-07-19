@@ -16,7 +16,7 @@ while (h2 < 3)
 {
 while (h1 < 4)
 {
-while (m2 < 8)
+while (m2 < 6)
 {
 while (m1 < 10)
 {
