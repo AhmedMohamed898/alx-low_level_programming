@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * times_table - check the code
  *
  * Return: Always 0.
  */
@@ -12,7 +12,7 @@ int c;
 int x;
 for (c = 0; c <= 9; c++)
 {
-for ( r = 0; r <= 9; r++)
+for (r = 0; r <= 9; r++)
 {
 x = r * c;
 if (r == 0)
