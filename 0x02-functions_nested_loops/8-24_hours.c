@@ -14,7 +14,11 @@ int h1 = 0, h2 = 0, m1 = 0, m2 = 0;
 
 while (h2 < 3)
 {
-while (h1 < 4)
+if (h1 == 4 && h2 ==2)
+{
+break;
+}
+while (h1 < 10)
 {
 while (m2 < 6)
 {
