@@ -12,9 +12,9 @@ void jack_bauer(void)
 {
 int h1 = 0, h2 = 0, m1 = 0, m2 = 0;
 
-while (h2 < 7)
+while (h2 < 3)
 {
-while (h1 < 10)
+while (h1 < 4)
 {
 while (m2 < 7)
 {
