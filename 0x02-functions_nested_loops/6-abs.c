@@ -4,8 +4,8 @@
 /* more headers goes there */
 
 /**
- * @c: describe the parameter
  * _abs - Entry point
+ * @c: describe the parameter
  * Return: Always 0 (Success)
  */
 int _abs(int c)
