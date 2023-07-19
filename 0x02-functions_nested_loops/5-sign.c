@@ -23,7 +23,7 @@ else if (n == 0)
 }
 else 
 {
-putchar('-');
+_putchar('-');
 }
 return (-1);
 }
