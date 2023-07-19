@@ -18,6 +18,10 @@ if (c < 0)
 c = c * -1;
 }
 lastDigit = c % 10;
+if (lastDigit < 0)
+{
+lastDigit *= -1;
+}
 _putchar(lastDigit + '0');
 return (lastDigit);
 }
