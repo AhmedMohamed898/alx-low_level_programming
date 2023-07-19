@@ -6,7 +6,7 @@
 
 /**
  * print_sign - Entry point
- * @c: describe the parameter
+ * @n: describe the parameter
  * Return: Always 0 (Success)
  */
 int print_sign(int n)
