@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * add - check the code
+ *@a:parameter
+ *@b: parameter
  * Return: Always 0.
  */
 int add(int a, int b)
