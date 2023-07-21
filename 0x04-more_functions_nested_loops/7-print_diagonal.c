@@ -11,7 +11,7 @@ int i;
 int j;
 if (n <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 else
 {
@@ -19,11 +19,11 @@ for (i = 0; i < n; i++)
 {
 for (j = 0; j < i; j++)
 {
-putchar(' ');
+_putchar(' ');
 }
-putchar('\\');
-putchar('\n');
+_putchar('\\');
+_putchar('\n');
 }
-putchar('\n');
+_putchar('\n');
 }
 }
