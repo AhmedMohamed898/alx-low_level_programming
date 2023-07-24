@@ -13,4 +13,5 @@ for (; count > 0; count--)
 {
 putchar(*(s + count));
 }
+putchar('\n');
 }
