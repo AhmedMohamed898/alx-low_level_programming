@@ -1,17 +1,26 @@
 #include "main.h"
-#include <string.h>
 /**
- * print_rev - check the code
- *@s: paramter
- * Return: Always 0.
+ * print_rev - imprime en reversa
+ * @s: string
+ * return: 0
  */
-
 void print_rev(char *s)
 {
-int count = strlen(s);
-for (; count >= 0; count--)
-{
-putchar(*(s + count));
+	int longi = 0;
+	int o;
+
+	while (*s != '\0')
+	{
+		longi++;
+		s++;
+	}
+	s--;
+	for (o = longi; o > 0; o--)
+	{
+		_putchar(*s);
+		s--;
+	}
+
+	_putchar('\n');
 }
-putchar('\n');
-}
+
