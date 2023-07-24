@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * print_rev - check the code
  *@s: paramter
@@ -8,8 +8,8 @@
 
 void print_rev(char *s)
 {
-int count;
-for (count = _strlen(s); count > 0; count--)
+int count = strlen(s);
+for (; count > 0; count--)
 {
 puts(s + count);
 }
