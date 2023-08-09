@@ -65,9 +65,10 @@ return (1);
 else
 {
 int a, b, mul;
+
 a = _atoi(argv[1]);
 b = _atoi(argv[2]);
-mul = a * b;
+mul = a *b;
 printf("%d\n", mul);
 }
 return (0);
