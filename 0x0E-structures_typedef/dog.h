@@ -6,14 +6,12 @@
  * @name: The name of the dog.
  * @age: The age of the dog.
  * @owner: The owner of the dog.
- *
- * This struct holds information about a dog, including its name, age, and owner.
  */
 struct dog
 {
-    char *name;    /**< The name of the dog. */
-    float age;     /**< The age of the dog. */
-    char *owner;   /**< The owner of the dog. */
+    char *name;
+    float age;   
+    char *owner
 };
 
 #endif /* DOG_H */
