@@ -13,7 +13,7 @@ if (array == NULL || size <= 0 || cmp == NULL)
 {
 return (-1);
 }
-unsigned int i;
+int i;
 for (i = 0; i < size; i++)
 {
 if (cmp(array[i]))
